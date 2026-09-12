@@ -39,9 +39,12 @@ export default function AboutPage() {
             vertical that already covers your category in the United States.
           </p>
           <p>
-            We keep the publisher file American on purpose: newsrooms, trade magazines, niche
-            blogs with real audiences, and digital PR opportunities where a journalist—not a
-            marketplace—decides the mention.
+            We keep the opportunity file American on purpose: newsrooms, trade magazines, niche
+            blogs with real audiences, and digital PR placements where a journalist—not a
+            marketplace—decides the mention. That catalogue now holds{" "}
+            {operations.backlinkOpportunities} high-authority, high-traffic US backlink
+            opportunities, shaped by {operations.yearsExperience} years of USA campaign work and{" "}
+            {operations.campaigns} ongoing and completed programs.
           </p>
           <h2>How we work</h2>
           <p>
@@ -68,12 +71,16 @@ export default function AboutPage() {
           <p className="kicker">At a glance</p>
           <dl className="mt-6 space-y-5">
             <div>
-              <dt className="text-sm text-ink-muted">Publishers on file</dt>
-              <dd className="text-2xl font-bold text-ink">{operations.publishersOnFile}</dd>
+              <dt className="text-sm text-ink-muted">{operations.backlinkOpportunitiesLabel}</dt>
+              <dd className="text-2xl font-bold text-ink">{operations.backlinkOpportunities}</dd>
             </div>
             <div>
-              <dt className="text-sm text-ink-muted">Outreach</dt>
-              <dd className="text-lg font-semibold text-ink">{operations.monthlyOutreach}</dd>
+              <dt className="text-sm text-ink-muted">{operations.yearsExperienceLabel}</dt>
+              <dd className="text-2xl font-bold text-ink">{operations.yearsExperience}</dd>
+            </div>
+            <div>
+              <dt className="text-sm text-ink-muted">{operations.campaignsLabel}</dt>
+              <dd className="text-2xl font-bold text-ink">{operations.campaigns}</dd>
             </div>
             <div>
               <dt className="text-sm text-ink-muted">Office</dt>

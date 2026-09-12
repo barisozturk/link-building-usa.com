@@ -31,15 +31,14 @@ export function HomeView() {
         />
         <div className="page-shell relative grid min-h-[calc(100vh-4.25rem)] items-center gap-10 py-14 md:grid-cols-12 md:gap-8 md:py-16">
           <div className="md:col-span-6 lg:col-span-6">
-            <p className="kicker animate-rise !text-tide-soft">San Francisco · United States</p>
-            <h1 className="display animate-rise-delay-1 mt-4 text-5xl text-white md:text-6xl lg:text-[4.1rem]">
+            <h1 className="display animate-rise text-5xl text-white md:text-6xl lg:text-[4.1rem]">
               {home.h1}
             </h1>
             <div className="animate-draw mt-5 h-1 w-28 bg-signal" aria-hidden />
-            <p className="animate-rise-delay-2 mt-6 max-w-xl text-base leading-relaxed text-white/75 md:text-lg">
+            <p className="animate-rise-delay-1 mt-6 max-w-xl text-base leading-relaxed text-white/75 md:text-lg">
               {home.supporting}
             </p>
-            <div className="animate-rise-delay-3 mt-9 flex flex-wrap gap-3">
+            <div className="animate-rise-delay-2 mt-9 flex flex-wrap gap-3">
               <Link href="/contact/" className="btn btn-signal">
                 Request a proposal
               </Link>
@@ -50,36 +49,84 @@ export function HomeView() {
                 See case studies
               </Link>
             </div>
+            <dl className="animate-rise-delay-3 mt-12 grid gap-6 sm:grid-cols-3">
+              {[
+                {
+                  label: operations.backlinkOpportunitiesLabel,
+                  value: operations.backlinkOpportunities,
+                  icon: (
+                    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" aria-hidden>
+                      <path
+                        d="M9.5 14.5 14.5 9.5M8.2 11.2l-1.4 1.4a3.2 3.2 0 1 0 4.5 4.5l1.4-1.4M12.8 8.8l1.4-1.4a3.2 3.2 0 1 1 4.5 4.5l-1.4 1.4"
+                        stroke="currentColor"
+                        strokeWidth="1.7"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  ),
+                },
+                {
+                  label: operations.yearsExperienceLabel,
+                  value: operations.yearsExperience,
+                  icon: (
+                    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" aria-hidden>
+                      <circle cx="12" cy="12" r="8.25" stroke="currentColor" strokeWidth="1.7" />
+                      <path
+                        d="M12 8v4.2l2.8 1.6"
+                        stroke="currentColor"
+                        strokeWidth="1.7"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  ),
+                },
+                {
+                  label: operations.campaignsLabel,
+                  value: operations.campaigns,
+                  icon: (
+                    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" aria-hidden>
+                      <path
+                        d="M5 19V10M12 19V5M19 19v-7"
+                        stroke="currentColor"
+                        strokeWidth="1.7"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  ),
+                },
+              ].map((item) => (
+                <div key={item.label} className="border-t border-white/15 pt-4">
+                  <div className="mb-3 inline-flex h-9 w-9 items-center justify-center rounded-lg border border-white/20 bg-white/5 text-white">
+                    {item.icon}
+                  </div>
+                  <dt className="sr-only">{item.label}</dt>
+                  <dd className="text-xl font-bold tracking-tight text-white sm:text-2xl">
+                    {item.value}
+                  </dd>
+                  <p className="mt-1 text-sm leading-snug text-white/60">{item.label}</p>
+                </div>
+              ))}
+            </dl>
+            <p className="kicker animate-rise-delay-3 mt-8 !text-tide-soft">
+              San Francisco · United States
+            </p>
           </div>
-          <div className="animate-rise-delay-2 flex justify-center md:col-span-6 md:justify-end">
+          <div className="animate-rise-delay-2 relative flex justify-center md:col-span-6 md:justify-end">
             <Image
-              src="/link-building-usa-hero.webp"
+              src="/link-building-usa-hero.png"
               alt={home.heroImageAlt}
               width={1024}
               height={1024}
               priority
-              className="h-auto w-full max-w-[20rem] object-contain sm:max-w-[24rem] lg:max-w-[28rem]"
+              className="relative h-auto w-full max-w-[20rem] object-contain sm:max-w-[24rem] lg:max-w-[30rem]"
             />
           </div>
         </div>
       </section>
 
       <HeroLogoMarquee label={home.trustedBy} />
-
-      <section className="border-b border-line bg-paper">
-        <div className="page-shell grid gap-6 py-8 sm:grid-cols-3">
-          {[
-            { label: "US publishers on file", value: operations.publishersOnFile },
-            { label: "Years in the industry", value: "8+" },
-            { label: "Metrics we file", value: "DR · DA · TF · traffic" },
-          ].map((item) => (
-            <div key={item.label}>
-              <p className="text-2xl font-bold tracking-tight text-ink">{item.value}</p>
-              <p className="mt-1 text-sm text-ink-muted">{item.label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
 
       <section className="page-shell py-20 md:py-24">
         <p className="kicker">{home.promise.kicker}</p>

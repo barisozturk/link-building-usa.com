@@ -52,8 +52,8 @@ export const services = [
     kicker: "Outreach",
     highlights: [
       {
-        title: "45,000+ US sites on file",
-        body: "A maintained American publisher database filtered by niche, traffic, and outbound hygiene—not a scraped global list.",
+        title: "100,000+ US backlink opportunities",
+        body: "A maintained catalogue of high-authority, high-traffic American publisher opportunities—filtered by niche and outbound hygiene, not scraped once and frozen.",
       },
       {
         title: "Metric floors you define",

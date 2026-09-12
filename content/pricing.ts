@@ -83,7 +83,7 @@ export const pricingPackages: PricingPackage[] = [
 
 export const pricingIncludes = [
   "One editorial placement on an American publisher page",
-  "A host drawn from our US publisher database of 45,000+ websites",
+  "A host drawn from our catalogue of 100,000+ high-authority US backlink opportunities",
   "Ahrefs DR, organic traffic estimates, Moz DA, and Majestic TF checked before delivery",
   "The live URL, the copy around the link, and the destination all reported",
   "Your approval on a prospect pool before anything publishes",

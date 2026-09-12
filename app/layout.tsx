@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default: site.name,
-    template: `%s | ${site.domain}`,
+    template: "%s",
   },
   description:
     "Editorial link acquisition for brands competing in United States search results—guest posts, outreach, and digital PR placements on real US publishers.",

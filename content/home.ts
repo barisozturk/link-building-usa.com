@@ -10,20 +10,20 @@ export const home = {
   title: "Link Building USA | #1 Link Building Services in the USA",
   h1: "Link Building USA",
   description:
-    "Link Building USA earns editorial backlinks from vetted American publishers—news, trade, and niche sites with real traffic—so US brands climb Google and show up in AI answers.",
+    "Link Building USA is a specialist backlink agency in the United States, with a large database of American sites across every niche. Get in touch today.",
   supporting:
     "Link Building USA is a leading SEO backlink services agency in the United States. Over the 8 years in the industry, we have managed to develop a huge database of USA backlinks across various niches. If you are looking to build a high-quality link building profile in the USA, get in touch with us now!",
   trustedBy: "Trusted by leading brands",
-  heroImageAlt: "Network map illustrating US publisher backlinks and outreach connections",
+  heroImageAlt: "Low-poly United States map with a network of publisher backlink connections",
   promise: {
     kicker: "The promise",
-    title: "American publishers your buyers already trust",
-    body: "We build authority the way US search rewards it: relevant mentions on pages Americans actually read, with metrics you can verify and a shared sheet that updates when each URL goes live. Every campaign starts with the commercial pages you need to support—not a vanity chart of referring domains that never touch revenue URLs.",
+    title: "USA Backlinks from websites that your buyers already trust!",
+    body: "We build authority the way US search rewards it: relevant mentions on pages Americans actually read, with metrics you can verify and a shared sheet that updates when each URL goes live. Every link building campaign in USA starts with the commercial pages you need to support—not a vanity chart of referring domains that never touch revenue URLs.",
   } satisfies HomeSection,
   servicesTeaser: {
     kicker: "Services",
     title: "Outreach, guest posting, and digital PR for the US market",
-    body: "Campaigns are scoped for American search—not a generic “international” folder. Choose the motion that fits the pages you need to support.",
+    body: "USA Link building campaigns are scoped for American search—not a generic “international” folder. Choose the motion that fits the pages you need to support.",
     items: [
       {
         title: "USA guest posting",
@@ -102,20 +102,20 @@ export const home = {
   } satisfies HomeSection,
   whyUs: {
     kicker: "Why us",
-    title: "Eight years focused on USA backlinks",
-    body: "Link Building USA was built around one market. That focus shows up in the publisher file, the pitch language, and the way we brief campaigns for American brands and agencies.",
+    title: "Eight years running USA link building campaigns",
+    body: "Link Building USA was built around one market. That focus shows up in a catalogue of 100,000+ high-authority US backlink opportunities, 100+ campaigns delivered, and briefs written for American brands and agencies.",
     items: [
       {
-        title: "A living US publisher database",
-        body: "Across eight years we have grown a large catalogue of USA backlinks spanning news, trade, niche blogs, and digital PR opportunities—continuously refreshed, not scraped once and frozen.",
+        title: "100,000+ US backlink opportunities",
+        body: "Across eight years we have grown a large catalogue of high-authority, high-traffic USA placements spanning news, trade, niche blogs, and digital PR—continuously refreshed, not scraped once and frozen.",
       },
       {
         title: "Agency-ready white-label options",
         body: "Marketing teams and SEO agencies get scoped proposals, sample hosts, and reporting that can sit inside your client workflow without renaming the work as a marketplace dump.",
       },
       {
-        title: "Campaigns tied to commercial intent",
-        body: "We plan for the queries and pages that move pipeline in the United States—category authority, comparison visibility, and brand mentions that survive a compliance review.",
+        title: "100+ campaigns in the USA",
+        body: "Ongoing and completed programs for brands competing in American search—planned for the queries and pages that move pipeline, with placements that survive a compliance review.",
       },
     ],
   } satisfies HomeSection,

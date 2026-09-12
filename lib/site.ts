@@ -6,7 +6,7 @@ export const site = {
   email: "fabi@site-media.co.uk",
   locale: "en_US",
   lang: "en-US",
-  logoPath: "/logo.png",
+  logoPath: "/logo-dark.png",
   ogImage: "/og.svg",
   formspree: "https://formspree.io/f/xqenglqv",
   mapsUrl: "https://maps.app.goo.gl/L35Kfypo4b4Wh6kC7",
@@ -50,8 +50,12 @@ export const footerCompany = [
 export const hours = "Monday–Friday, 9:00 AM–6:00 PM PT";
 
 export const operations = {
-  publishersOnFile: "45,000+",
-  monthlyOutreach: "thousands of US publishers each month",
+  backlinkOpportunities: "100,000+",
+  backlinkOpportunitiesLabel: "high-authority & traffic US backlink opportunities",
+  yearsExperience: "8+",
+  yearsExperienceLabel: "Years of experience running USA link building campaigns",
+  campaigns: "100+",
+  campaignsLabel: "Ongoing & completed Link Building Campaigns in the USA",
   metrics: "Ahrefs DR, organic traffic estimates, Moz DA, and Majestic TF",
 } as const;
 

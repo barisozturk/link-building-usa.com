@@ -13,7 +13,7 @@ export const team: TeamMember[] = [
     name: "Marcus Hale",
     role: "Head of Link Building",
     photo: "/team/nikos-papadopoulos.webp",
-    bio: "Marcus has spent more than nine years in SEO and digital PR across the United States. He leads publisher strategy for our USA backlink database and keeps outreach focused on desks American buyers already trust—not recycled guest-post networks.",
+    bio: "Marcus has spent more than eight years leading SEO and digital PR across the United States. He steers strategy across our catalogue of 100,000+ high-authority US backlink opportunities and keeps outreach focused on desks American buyers already trust.",
   },
   {
     slug: "sofia-reyes",
@@ -62,7 +62,7 @@ export const team: TeamMember[] = [
     name: "Diego Alvarez",
     role: "Publisher Relations Manager",
     photo: "/team/alexandros-petridis.webp",
-    bio: "Diego maintains relationships with website owners and editors. He cycles quality reviews across Ahrefs DR and traffic, Moz DA, and Majestic TF so the USA publisher catalogue stays current and usable.",
+    bio: "Diego maintains relationships with website owners and editors. He cycles quality reviews across Ahrefs DR and traffic, Moz DA, and Majestic TF so our 100,000+ US backlink opportunities stay current and usable for active campaigns.",
   },
 ];
 
